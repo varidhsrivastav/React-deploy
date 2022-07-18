@@ -1,0 +1,95 @@
+
+.help svg{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.help {
+  margin: 250px 0;
+}
+.help-title {
+  text-align: center;
+}
+.help-title h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1;
+  text-transform: capitalize;
+  text-align: center;
+  width: 88%;
+}
+.help-title p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin: 4em 0 ;
+  width: 88%;
+}
+.help-ask {
+  text-align: center;
+  padding: 10px 0;
+  line-height: 1;
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* conatct */
+
+.contact-form {
+  position: relative;
+  padding: 20px;
+}
+.contact-form .form-control {
+  outline: none;
+  box-shadow: none;
+  font-weight: bold;
+  margin: 10px 0;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0.7em;
+  line-height: 1.4;
+  border: 1px solid #818a91;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  min-height: 40px;
+  flex-grow: 1;
+  color: #373a3c;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.contact-form .submit-btn {
+  background: #ffc200;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  width: 100;
+  transition: all 0.4s ease;
+  width: 100%;
+}
+.contact-form .submit-btn:hover {
+  background: #9d00ff;
+}
+
+.contact-info {
+  background: #474559;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  bottom: 8px;
+}
+.contact-info p,
+.contact-info a {
+  color: #f7f3f3;
+}

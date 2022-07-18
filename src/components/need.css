@@ -1,0 +1,74 @@
+/* .spacer{
+ aspect-ratio: 960/900;
+ width: 100%;
+ position: absolute;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+} 
+.layer1{
+    background-image: url('../image/waved.png');
+    position: absolute;
+} */
+.waves svg{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+}
+.needHelp .title h2 {
+  text-align: left;
+  box-sizing: border-box;
+  line-height: 1;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.needHelp{
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 0;
+    color: #ffffff;
+}
+.needHelp .need-para p {
+  text-align: left;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+.button {
+  padding: 20px;
+  text-align: center;
+}
+.needbutton {
+  line-height: 1;
+  text-align: center;
+  box-shadow: none;
+  text-decoration: none;
+  width: auto;
+  padding: 15px 30px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  background-color: #fce300;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #fce300;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.needbutton:hover {
+  background-color: #5b0796;
+  border: 3px solid #fce300;
+  color: #fce300;
+}
+
+@media (max-width: 1100px){
+    .needHelp{
+        color: #000000;
+    }
+}

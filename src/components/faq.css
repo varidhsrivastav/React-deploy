@@ -1,0 +1,60 @@
+.faq{
+  margin: 20rem 0;
+}
+
+.faq-title h2{
+  text-align: left;
+  color: #888888;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.3px;
+  font-size: 50px;
+}
+
+.by-parent h2{
+  text-align: center;
+  color: #666;
+  box-sizing: border-box;
+  line-height: 1;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 30px;
+}.by-student h2{
+  text-align: center;
+  color: #666;
+  box-sizing: border-box;
+  line-height: 1;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 30px;
+}
+
+.ques{
+  border: 1px solid #d4d4d4;
+  text-align: left;
+  border-width: 1px;
+  border-color: #ededed;
+}
+.ques-accordian{
+  margin-top: 30px;
+}
+
+.mantine-Accordion-content{
+  text-align: left;
+  background-color: transparent;
+  box-sizing: border-box;
+  box-shadow: none;
+  text-decoration: none;
+  color: #070049;
+  font-family: "Poppins", Sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.mantine-Accordion-label{
+  color: #352f6b;
+}
+.mantine-Accordion-label:hover{
+  color: #C849FF;
+}
+
