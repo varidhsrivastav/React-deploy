@@ -1,13 +1,21 @@
-
+/* 
 .help svg{
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-}
+} */
 .help {
-  margin: 250px 0;
+  padding: 250px 0;
+  background: rgb(114, 8, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(114, 8, 209, 1) 58%,
+    rgba(81, 3, 140, 1) 100%
+  );
+  background-size: cover;
+  color: #ffffff;
 }
 .help-title {
   text-align: center;

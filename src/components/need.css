@@ -10,11 +10,11 @@
     background-image: url('../image/waved.png');
     position: absolute;
 } */
-.waves svg{
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: auto;
+.waves svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: auto;
 }
 .needHelp .title h2 {
   text-align: left;
@@ -23,11 +23,11 @@
   font-size: 2.4rem;
   font-weight: 400;
 }
-.needHelp{
-    margin: 0 0 0 0;
-    position: relative;
-    bottom: 0;
-    color: #ffffff;
+.needHelp {
+  margin: 0 0 0 0;
+  position: relative;
+  bottom: 0;
+  color: #ffffff;
 }
 .needHelp .need-para p {
   text-align: left;
@@ -67,8 +67,8 @@
   color: #fce300;
 }
 
-@media (max-width: 1100px){
-    .needHelp{
-        color: #000000;
-    }
+@media (max-width: 1100px) {
+  .needHelp {
+    color: #000000;
+  }
 }
